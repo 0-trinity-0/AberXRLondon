@@ -1,0 +1,24 @@
+::selection {
+    background-color: var(--secondary);
+    color: var(--back);
+}
+
+::-moz-selection {
+    background-color: var(--secondary);
+    color: var(--back);
+}
+
+::-o-selection {
+    background-color: var(--secondary);
+    color: var(--back);
+}
+
+::-ms-selection {
+    background-color: var(--secondary);
+    color: var(--back);
+}
+
+::-webkit-selection {
+    background-color: var(--secondary);
+    color: var(--back);
+}

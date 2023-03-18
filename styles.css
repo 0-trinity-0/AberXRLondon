@@ -1,0 +1,44 @@
+body{
+    /**
+    background-color: var(--back);
+    background-image: url(back.png);
+    **/
+    font-family: 'Roboto Mono';
+    margin: 0;
+    background-color: var(--back);
+
+    transition: margin 1s;
+
+    font-size: 2rem;
+}
+
+a{
+    color: var(--highlight);
+}
+
+a:hover{
+    background-color: var(--secondary);
+    color: var(--back);
+}
+
+b, h1, a{
+    background-color: var(--secondary);
+    color: var(--highlight);
+}
+
+ul{
+    margin-top: 0;
+}
+
+h1{
+    transition: height 1s, font-size 1s;
+    margin: 0;
+    overflow: hidden;
+
+    font-size: 7rem;
+}
+
+
+p, .paragraphContainer{
+    margin: 2rem 2rem 2rem 2rem
+}
