@@ -3,7 +3,7 @@ var accessibilityColours = false;
 function shrinkTitle()
 {
     setTimeout(()=>{
-        document.getElementById("title").style="height: 10vh; font-size: 4rem;";
+        document.getElementById("title").style="height: 12vh; font-size: 4rem;";
         document.getElementById("accessButton").style="opacity: 100%";
     }, 2000)
 }
